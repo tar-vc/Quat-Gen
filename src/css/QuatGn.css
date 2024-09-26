@@ -1,0 +1,48 @@
+@font-face {
+  font-family: "04B_30";
+  src: url("/public/fonts/04b_30/04B_30__.TTF") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.framex {
+  border: 2px solid black; /* Adds a black border */
+  padding: 10px; /* Adds some padding inside the frame */
+  margin: 10px; /* Adds some margin outside the frame */
+  /* bluer background color */
+  background-color: rgba(240, 248, 255, 0.5); /* Light blue with 50% opacity */
+  -webkit-backdrop-filter: blur(5px); /* Applies a blur effect for Safari */
+  backdrop-filter: blur(5px); /* Applies a blur effect */
+  border-radius: 10px; /* Adds rounded corners */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Adds a shadow effect */
+}
+
+
+
+.framex #btx {
+  font-family: "04B_30", sans-serif;
+  font-size: 20px;
+  color: rgb(160, 128, 128);
+  text-align: center;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.framex #btx:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+} */

@@ -1,0 +1,41 @@
+
+
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  font-family: '04B_30', sans-serif;
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  background-image: url('/public/debee0l-eca2c69e-8c11-421b-905e-29841ab8bbf7.gif');
+  background-size: cover; /* Adjusts the image to cover the entire background */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  background-position: center;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+  color: #000000;
+  font-family: '04B_30', cursive;
+  text-shadow: 2px 2px 0 #ffffff, -2px -2px 0 #ffffff, 2px -2px 0 #ffffff, -2px 2px 0 #ffffff;
+}
+
+
+
+button:hover {
+  border-color: #646cff;
+}
+
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  /* Add light theme specific styles here if needed */
+}

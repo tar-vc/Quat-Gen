@@ -1,0 +1,14 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+p {
+  font-size: 1.25em;
+  color: #462208; /* Use a more visually appealing shade of brown */
+  line-height: 1.6; /* Improve readability */
+  margin-bottom: 1.5em; /* Add spacing between paragraphs */
+  text-shadow: 2px 2px 0 #ffffff, -2px -2px 0 #ffffff, 2px -2px 0 #ffffff, -2px 2px 0 #ffffff;
+}
